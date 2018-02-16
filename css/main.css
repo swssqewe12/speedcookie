@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: "Open Sans";
+}
+
+#big_cookie {
+	position: absolute;
+	top: calc(50vh - 138px);
+	left: calc(50vw - 138px);
+	transition: opacity 0.15s, filter 0.1s, transform 0.1s;
+}
+
+#big_cookie:hover {
+	opacity: 0.8;
+	transform: scale(0.95);
+}
+
+#big_cookie:active {
+	filter: brightness(75%);
+	transform: scale(1.0);
+}
+
+#cookie_count_img {
+	position: absolute;
+	top: 13px;
+	left: 15px;
+	width: 27px;
+	height: 27px;
+	filter: brightness(75%);
+}
+
+#cookie_count {
+	position: absolute;
+	top: 10px;
+	left: 54px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#timer_img {
+	position: absolute;
+	top: 13px;
+	right: 15px;
+	width: 27px;
+	height: 27px;
+	filter: brightness(75%);
+}
+
+#time {
+	position: absolute;
+	top: 10px;
+	right: 54px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#friend_count {
+	position: absolute;
+	top: 70px;
+	left: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#friend_price {
+	position: absolute;
+	top: 70px;
+	left: 152px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+	color: brown;
+}
+
+#friend_new {
+	position: absolute;
+	top: 75px;
+	left: 240px;
+	padding-left: 6px;
+	padding-right: 6px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: green;
+	color: white;
+	transition: transform 0.15s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+#friend_new:hover {
+	transform: scale(1.3);
+}
+
+#friend_new:active {
+	transform: scale(1);
+}
+
+#baker_count {
+	position: absolute;
+	top: 107px;
+	left: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#baker_price {
+	position: absolute;
+	top: 107px;
+	left: 152px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+	color: brown;
+}
+
+#baker_new {
+	position: absolute;
+	top: 113px;
+	left: 240px;
+	padding-left: 6px;
+	padding-right: 6px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: green;
+	color: white;
+	transition: transform 0.15s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+#baker_new:hover {
+	transform: scale(1.3);
+}
+
+#baker_new:active {
+	transform: scale(1);
+}
+
+#granny_count {
+	position: absolute;
+	top: 144px;
+	left: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#granny_price {
+	position: absolute;
+	top: 144px;
+	left: 152px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+	color: brown;
+}
+
+#granny_new {
+	position: absolute;
+	top: 150px;
+	left: 240px;
+	padding-left: 6px;
+	padding-right: 6px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: green;
+	color: white;
+	transition: transform 0.15s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+#granny_new:hover {
+	transform: scale(1.3);
+}
+
+#granny_new:active {
+	transform: scale(1);
+}
+
+#cm_count {
+	position: absolute;
+	top: 181px;
+	left: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#cm_price {
+	position: absolute;
+	top: 181px;
+	left: 152px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+	color: brown;
+}
+
+#cm_new {
+	position: absolute;
+	top: 187px;
+	left: 240px;
+	padding-left: 6px;
+	padding-right: 6px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: green;
+	color: white;
+	transition: transform 0.15s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+#cm_new:hover {
+	transform: scale(1.3);
+}
+
+#cm_new:active {
+	transform: scale(1);
+}
+
+#gorilla_count {
+	position: absolute;
+	top: 70px;
+	right: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#gorilla_price {
+	position: absolute;
+	top: 70px;
+	right: 152px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+	color: brown;
+}
+
+#gorilla_new {
+	position: absolute;
+	top: 75px;
+	right: 240px;
+	padding-left: 6px;
+	padding-right: 6px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: green;
+	color: white;
+	transition: transform 0.15s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+#gorilla_new:hover {
+	transform: scale(1.3);
+}
+
+#gorilla_new:active {
+	transform: scale(1);
+}
+
+#mice_count {
+	position: absolute;
+	top: 107px;
+	right: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#mice_price {
+	position: absolute;
+	top: 107px;
+	right: 152px;
+	line-height: 32px;
+	font-weight: 600;
+	font-size: 18px;
+	color: brown;
+}
+
+#mice_new {
+	position: absolute;
+	top: 112px;
+	right: 240px;
+	padding-left: 6px;
+	padding-right: 6px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: green;
+	color: white;
+	transition: transform 0.15s;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+#mice_new:hover {
+	transform: scale(1.3);
+}
+
+#mice_new:active {
+	transform: scale(1);
+}
+
+#click_speed {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	font-size: 22px;
+}
+
+#second_speed {
+	position: absolute;
+	top: 53px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#gh_active {
+	display: none;
+	position: absolute;
+	bottom: 24px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	font-size: 36px;
+	color: blue;
+	font-weight: 300;
+	animation-name: blink;
+    animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+}
+
+#gh_active.active {
+	display: block;
+}
+
+@keyframes blink {
+    0% {opacity: 0; font-size: 36px;}
+	40% {opacity: 1; font-size: 42px;}
+	60% {opacity: 1; font-size: 42px;}
+    100% {opacity: 0; font-size: 36px;}
+}
+
+.baked_cookie {
+	opacity: 0;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	transform: scale(0);
+}
+
+.baked_cookie.visible {
+	transform: scale(1.5);
+	opacity: 0.8;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.baked_cookie.moved {
+	top: 10px !important;
+	left: 10px !important;
+	opacity: 0;
+	transform: scale(0.5);
+	transition: transform 0.5s, top 0.5s, left 0.5s, opacity 0.2s 0.3s;
+}
